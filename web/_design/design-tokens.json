@@ -1,0 +1,626 @@
+{
+  "$schema": "https://design-tokens.org/spec/v1.0",
+  "name": "SK Hynix Analysis Report Web — Design Tokens",
+  "version": "1.0.0",
+  "updatedAt": "2026-05-12",
+  "owner": "design-lead",
+  "modes": ["dark", "light"],
+  "defaultMode": "dark",
+
+  "color": {
+    "dark": {
+      "bg": {
+        "primary": "#070A14",
+        "secondary": "#0E1322",
+        "tertiary": "#141A2D",
+        "elevated": "#1B2238",
+        "overlay": "rgba(7,10,20,0.72)",
+        "glass": "rgba(20,26,45,0.55)",
+        "glassHi": "rgba(27,34,56,0.70)",
+        "scrim": "rgba(0,0,0,0.55)"
+      },
+      "text": {
+        "primary": "#F4F7FB",
+        "secondary": "#C7D0E0",
+        "tertiary": "#8B95A9",
+        "muted": "#5E6A82",
+        "inverse": "#0E1322",
+        "link": "#6FE6FF",
+        "linkHover": "#9DF0FF"
+      },
+      "border": {
+        "subtle": "rgba(255,255,255,0.06)",
+        "default": "rgba(255,255,255,0.10)",
+        "strong": "rgba(255,255,255,0.18)",
+        "focus": "#06B6D4"
+      },
+      "accent": {
+        "primary": "#06B6D4",
+        "primaryHover": "#22D3EE",
+        "secondary": "#8B5CF6",
+        "secondaryHover": "#A78BFA",
+        "tertiary": "#F59E0B",
+        "tertiaryHover": "#FBBF24",
+        "quaternary": "#EC4899"
+      },
+      "state": {
+        "bull": "#10B981",
+        "bullSoft": "rgba(16,185,129,0.16)",
+        "bear": "#EF4444",
+        "bearSoft": "rgba(239,68,68,0.18)",
+        "neutral": "#6B7280",
+        "neutralSoft": "rgba(107,114,128,0.18)",
+        "warning": "#F59E0B",
+        "warningSoft": "rgba(245,158,11,0.18)",
+        "info": "#3B82F6",
+        "infoSoft": "rgba(59,130,246,0.18)",
+        "success": "#10B981",
+        "danger": "#EF4444"
+      },
+      "scenario": {
+        "bear": "#EF4444",
+        "bearBg": "rgba(239,68,68,0.12)",
+        "base": "#06B6D4",
+        "baseBg": "rgba(6,182,212,0.12)",
+        "bull": "#10B981",
+        "bullBg": "rgba(16,185,129,0.12)"
+      },
+      "risk": {
+        "high": "#EF4444",
+        "mid": "#F59E0B",
+        "low": "#10B981"
+      },
+      "viz": {
+        "viz-1": "#06B6D4",
+        "viz-2": "#A78BFA",
+        "viz-3": "#FB923C",
+        "viz-4": "#FBBF24",
+        "viz-5": "#4ADE80",
+        "viz-6": "#F472B6",
+        "viz-7": "#38BDF8",
+        "viz-8": "#C084FC",
+        "company": {
+          "sk": "#06B6D4",
+          "samsung": "#A78BFA",
+          "micron": "#FB923C",
+          "nvidia": "#76B900",
+          "amd": "#ED1C24",
+          "google": "#F472B6",
+          "aws": "#FBBF24"
+        },
+        "heat": {
+          "0": "#0E1322",
+          "1": "#1E3A5F",
+          "2": "#1E5F7A",
+          "3": "#06B6D4",
+          "4": "#22D3EE",
+          "5": "#6FE6FF"
+        }
+      },
+      "gradient": {
+        "hero": "radial-gradient(125% 90% at 20% 0%, rgba(139,92,246,0.35) 0%, rgba(6,182,212,0.20) 35%, rgba(7,10,20,0) 70%), radial-gradient(80% 80% at 80% 100%, rgba(236,72,153,0.18) 0%, rgba(7,10,20,0) 60%)",
+        "accent": "linear-gradient(135deg, #06B6D4 0%, #8B5CF6 60%, #EC4899 100%)",
+        "accentSubtle": "linear-gradient(135deg, rgba(6,182,212,0.20) 0%, rgba(139,92,246,0.20) 100%)",
+        "bull": "linear-gradient(135deg, #10B981 0%, #06B6D4 100%)",
+        "bear": "linear-gradient(135deg, #EF4444 0%, #F59E0B 100%)",
+        "neon": "linear-gradient(90deg, #06B6D4 0%, #22D3EE 50%, #06B6D4 100%)",
+        "card": "linear-gradient(180deg, rgba(27,34,56,0.65) 0%, rgba(14,19,34,0.40) 100%)"
+      }
+    },
+
+    "light": {
+      "bg": {
+        "primary": "#FBFCFE",
+        "secondary": "#F2F5FA",
+        "tertiary": "#E9EEF6",
+        "elevated": "#FFFFFF",
+        "overlay": "rgba(255,255,255,0.78)",
+        "glass": "rgba(255,255,255,0.65)",
+        "glassHi": "rgba(255,255,255,0.85)",
+        "scrim": "rgba(15,23,42,0.45)"
+      },
+      "text": {
+        "primary": "#0B1220",
+        "secondary": "#283449",
+        "tertiary": "#4B5A75",
+        "muted": "#7A879D",
+        "inverse": "#FBFCFE",
+        "link": "#0891B2",
+        "linkHover": "#0E7490"
+      },
+      "border": {
+        "subtle": "rgba(11,18,32,0.06)",
+        "default": "rgba(11,18,32,0.10)",
+        "strong": "rgba(11,18,32,0.18)",
+        "focus": "#0891B2"
+      },
+      "accent": {
+        "primary": "#0891B2",
+        "primaryHover": "#06B6D4",
+        "secondary": "#7C3AED",
+        "secondaryHover": "#8B5CF6",
+        "tertiary": "#D97706",
+        "tertiaryHover": "#F59E0B",
+        "quaternary": "#DB2777"
+      },
+      "state": {
+        "bull": "#059669",
+        "bullSoft": "rgba(5,150,105,0.10)",
+        "bear": "#DC2626",
+        "bearSoft": "rgba(220,38,38,0.10)",
+        "neutral": "#6B7280",
+        "neutralSoft": "rgba(107,114,128,0.10)",
+        "warning": "#D97706",
+        "warningSoft": "rgba(217,119,6,0.10)",
+        "info": "#2563EB",
+        "infoSoft": "rgba(37,99,235,0.10)",
+        "success": "#059669",
+        "danger": "#DC2626"
+      },
+      "scenario": {
+        "bear": "#DC2626",
+        "bearBg": "rgba(220,38,38,0.08)",
+        "base": "#0891B2",
+        "baseBg": "rgba(8,145,178,0.08)",
+        "bull": "#059669",
+        "bullBg": "rgba(5,150,105,0.08)"
+      },
+      "risk": {
+        "high": "#DC2626",
+        "mid": "#D97706",
+        "low": "#059669"
+      },
+      "viz": {
+        "viz-1": "#0891B2",
+        "viz-2": "#7C3AED",
+        "viz-3": "#EA580C",
+        "viz-4": "#D97706",
+        "viz-5": "#16A34A",
+        "viz-6": "#DB2777",
+        "viz-7": "#2563EB",
+        "viz-8": "#9333EA",
+        "company": {
+          "sk": "#0891B2",
+          "samsung": "#7C3AED",
+          "micron": "#EA580C",
+          "nvidia": "#65A30D",
+          "amd": "#B91C1C",
+          "google": "#DB2777",
+          "aws": "#D97706"
+        },
+        "heat": {
+          "0": "#F2F5FA",
+          "1": "#CFE6F0",
+          "2": "#9DCEE3",
+          "3": "#0891B2",
+          "4": "#0E7490",
+          "5": "#155E75"
+        }
+      },
+      "gradient": {
+        "hero": "radial-gradient(125% 90% at 20% 0%, rgba(124,58,237,0.18) 0%, rgba(8,145,178,0.12) 35%, rgba(251,252,254,0) 70%), radial-gradient(80% 80% at 80% 100%, rgba(219,39,119,0.10) 0%, rgba(251,252,254,0) 60%)",
+        "accent": "linear-gradient(135deg, #0891B2 0%, #7C3AED 60%, #DB2777 100%)",
+        "accentSubtle": "linear-gradient(135deg, rgba(8,145,178,0.10) 0%, rgba(124,58,237,0.10) 100%)",
+        "bull": "linear-gradient(135deg, #059669 0%, #0891B2 100%)",
+        "bear": "linear-gradient(135deg, #DC2626 0%, #D97706 100%)",
+        "neon": "linear-gradient(90deg, #0891B2 0%, #06B6D4 50%, #0891B2 100%)",
+        "card": "linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(242,245,250,0.65) 100%)"
+      }
+    }
+  },
+
+  "typography": {
+    "fontFamily": {
+      "display": "'Inter Tight', 'Pretendard Variable', 'Pretendard', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+      "body": "'Inter', 'Pretendard Variable', 'Pretendard', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+      "mono": "'JetBrains Mono', 'IBM Plex Mono', 'D2Coding', 'SF Mono', Menlo, Consolas, monospace"
+    },
+    "fontWeight": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700,
+      "extrabold": 800
+    },
+    "lineHeight": {
+      "display": 1.05,
+      "heading": 1.2,
+      "subheading": 1.3,
+      "body": 1.6,
+      "tight": 1.15
+    },
+    "letterSpacing": {
+      "display": "-0.035em",
+      "heading": "-0.02em",
+      "body": "0em",
+      "caption": "0.02em",
+      "mono": "-0.01em",
+      "label": "0.08em"
+    },
+    "scale": {
+      "display-1": {
+        "size": "clamp(3rem, 9vw, 7.5rem)",
+        "lineHeight": "1.02",
+        "letterSpacing": "-0.04em",
+        "weight": 700,
+        "family": "display",
+        "usage": "Hero 메인 헤드라인"
+      },
+      "display-2": {
+        "size": "clamp(2.25rem, 6vw, 4.5rem)",
+        "lineHeight": "1.08",
+        "letterSpacing": "-0.035em",
+        "weight": 700,
+        "family": "display",
+        "usage": "Hero 보조 / Section 메가 헤딩"
+      },
+      "h1": {
+        "size": "clamp(2rem, 4.5vw, 3rem)",
+        "lineHeight": "1.15",
+        "letterSpacing": "-0.025em",
+        "weight": 700,
+        "family": "display",
+        "usage": "섹션 헤딩"
+      },
+      "h2": {
+        "size": "clamp(1.5rem, 3vw, 2.25rem)",
+        "lineHeight": "1.2",
+        "letterSpacing": "-0.02em",
+        "weight": 600,
+        "family": "display",
+        "usage": "서브섹션"
+      },
+      "h3": {
+        "size": "clamp(1.125rem, 1.8vw, 1.375rem)",
+        "lineHeight": "1.3",
+        "letterSpacing": "-0.015em",
+        "weight": 600,
+        "family": "display",
+        "usage": "카드 타이틀"
+      },
+      "h4": {
+        "size": "1rem",
+        "lineHeight": "1.4",
+        "letterSpacing": "-0.01em",
+        "weight": 600,
+        "family": "body",
+        "usage": "리스트 헤더"
+      },
+      "body-lg": {
+        "size": "1.125rem",
+        "lineHeight": "1.65",
+        "weight": 400,
+        "family": "body",
+        "usage": "리드 문장"
+      },
+      "body": {
+        "size": "1rem",
+        "lineHeight": "1.6",
+        "weight": 400,
+        "family": "body",
+        "usage": "기본 본문"
+      },
+      "body-sm": {
+        "size": "0.875rem",
+        "lineHeight": "1.55",
+        "weight": 400,
+        "family": "body",
+        "usage": "보조 본문"
+      },
+      "caption": {
+        "size": "0.75rem",
+        "lineHeight": "1.4",
+        "weight": 500,
+        "family": "body",
+        "letterSpacing": "0.02em",
+        "usage": "메타·캡션"
+      },
+      "overline": {
+        "size": "0.6875rem",
+        "lineHeight": "1.4",
+        "weight": 600,
+        "family": "body",
+        "letterSpacing": "0.14em",
+        "transform": "uppercase",
+        "usage": "라벨·태그"
+      },
+      "metric-xl": {
+        "size": "clamp(2.75rem, 5.5vw, 4.5rem)",
+        "lineHeight": "1.0",
+        "letterSpacing": "-0.04em",
+        "weight": 700,
+        "family": "mono",
+        "usage": "Hero 임팩트 메트릭 숫자"
+      },
+      "metric-lg": {
+        "size": "clamp(1.75rem, 3vw, 2.5rem)",
+        "lineHeight": "1.05",
+        "letterSpacing": "-0.025em",
+        "weight": 700,
+        "family": "mono",
+        "usage": "MetricCard value"
+      },
+      "metric": {
+        "size": "1.5rem",
+        "lineHeight": "1.1",
+        "letterSpacing": "-0.02em",
+        "weight": 600,
+        "family": "mono",
+        "usage": "카드 내부 수치"
+      },
+      "mono-sm": {
+        "size": "0.8125rem",
+        "lineHeight": "1.4",
+        "weight": 500,
+        "family": "mono",
+        "usage": "툴팁·표 내부 수치"
+      }
+    }
+  },
+
+  "spacing": {
+    "base": "0.25rem",
+    "scale": {
+      "0": "0",
+      "px": "1px",
+      "0.5": "0.125rem",
+      "1": "0.25rem",
+      "2": "0.5rem",
+      "3": "0.75rem",
+      "4": "1rem",
+      "5": "1.25rem",
+      "6": "1.5rem",
+      "7": "1.75rem",
+      "8": "2rem",
+      "10": "2.5rem",
+      "12": "3rem",
+      "14": "3.5rem",
+      "16": "4rem",
+      "20": "5rem",
+      "24": "6rem",
+      "28": "7rem",
+      "32": "8rem",
+      "40": "10rem",
+      "48": "12rem",
+      "56": "14rem",
+      "64": "16rem"
+    },
+    "section": {
+      "y-xs": "clamp(3rem, 5vw, 4rem)",
+      "y-sm": "clamp(4rem, 7vw, 6rem)",
+      "y-md": "clamp(5rem, 9vw, 8rem)",
+      "y-lg": "clamp(7rem, 12vw, 11rem)",
+      "x": "clamp(1.25rem, 4vw, 2.5rem)"
+    },
+    "stack": {
+      "tight": "0.5rem",
+      "default": "1rem",
+      "loose": "1.5rem",
+      "looser": "2.5rem"
+    }
+  },
+
+  "radius": {
+    "none": "0",
+    "xs": "4px",
+    "sm": "6px",
+    "md": "10px",
+    "default": "14px",
+    "lg": "20px",
+    "xl": "28px",
+    "2xl": "36px",
+    "pill": "9999px",
+    "circle": "50%"
+  },
+
+  "shadow": {
+    "dark": {
+      "xs": "0 1px 2px rgba(0,0,0,0.35)",
+      "sm": "0 2px 8px rgba(0,0,0,0.35)",
+      "default": "0 8px 24px rgba(0,0,0,0.45)",
+      "lg": "0 18px 48px rgba(0,0,0,0.55)",
+      "xl": "0 32px 80px rgba(0,0,0,0.6)",
+      "glowCyan": "0 0 36px rgba(6,182,212,0.32)",
+      "glowPurple": "0 0 36px rgba(139,92,246,0.32)",
+      "glowAmber": "0 0 36px rgba(245,158,11,0.28)",
+      "glowBull": "0 0 32px rgba(16,185,129,0.28)",
+      "glowBear": "0 0 32px rgba(239,68,68,0.28)",
+      "innerHi": "inset 0 1px 0 rgba(255,255,255,0.08)",
+      "innerLo": "inset 0 -1px 0 rgba(0,0,0,0.5)"
+    },
+    "light": {
+      "xs": "0 1px 2px rgba(15,23,42,0.06)",
+      "sm": "0 2px 8px rgba(15,23,42,0.08)",
+      "default": "0 8px 24px rgba(15,23,42,0.10)",
+      "lg": "0 18px 48px rgba(15,23,42,0.14)",
+      "xl": "0 32px 80px rgba(15,23,42,0.18)",
+      "glowCyan": "0 0 28px rgba(8,145,178,0.22)",
+      "glowPurple": "0 0 28px rgba(124,58,237,0.22)",
+      "glowAmber": "0 0 28px rgba(217,119,6,0.22)",
+      "glowBull": "0 0 24px rgba(5,150,105,0.22)",
+      "glowBear": "0 0 24px rgba(220,38,38,0.22)",
+      "innerHi": "inset 0 1px 0 rgba(255,255,255,1)",
+      "innerLo": "inset 0 -1px 0 rgba(15,23,42,0.05)"
+    }
+  },
+
+  "blur": {
+    "none": "0",
+    "xs": "4px",
+    "sm": "8px",
+    "default": "16px",
+    "lg": "24px",
+    "xl": "40px",
+    "max": "64px"
+  },
+
+  "opacity": {
+    "0": 0,
+    "10": 0.1,
+    "20": 0.2,
+    "40": 0.4,
+    "60": 0.6,
+    "75": 0.75,
+    "90": 0.9,
+    "100": 1
+  },
+
+  "border": {
+    "width": {
+      "0": "0",
+      "thin": "1px",
+      "default": "1px",
+      "thick": "2px",
+      "heavy": "3px"
+    },
+    "style": "solid"
+  },
+
+  "motion": {
+    "duration": {
+      "instant": "75ms",
+      "fast": "150ms",
+      "default": "280ms",
+      "slow": "520ms",
+      "slower": "800ms",
+      "hero": "1200ms",
+      "ambient": "20000ms"
+    },
+    "easing": {
+      "standard": "cubic-bezier(0.4, 0.0, 0.2, 1)",
+      "decelerate": "cubic-bezier(0.0, 0.0, 0.2, 1)",
+      "accelerate": "cubic-bezier(0.4, 0.0, 1, 1)",
+      "emphasized": "cubic-bezier(0.2, 0.0, 0, 1)",
+      "spring": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "outQuart": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "linear": "linear"
+    },
+    "stagger": {
+      "tight": "50ms",
+      "default": "80ms",
+      "loose": "120ms",
+      "looser": "180ms"
+    },
+    "scroll": {
+      "snapStrength": "proximity",
+      "parallaxNear": "0.85",
+      "parallaxMid": "0.65",
+      "parallaxFar": "0.35"
+    },
+    "reducedMotion": {
+      "duration": "0ms",
+      "easing": "linear",
+      "ambient": "0ms"
+    }
+  },
+
+  "zIndex": {
+    "behind": -1,
+    "base": 0,
+    "raised": 1,
+    "dropdown": 10,
+    "sticky": 50,
+    "header": 100,
+    "overlay": 200,
+    "modal": 300,
+    "toast": 400,
+    "tooltip": 500,
+    "skipLink": 1000
+  },
+
+  "breakpoint": {
+    "xs": "360px",
+    "sm": "640px",
+    "md": "768px",
+    "lg": "1024px",
+    "xl": "1280px",
+    "2xl": "1536px",
+    "ultra": "1920px"
+  },
+
+  "container": {
+    "maxWidth": {
+      "prose": "68ch",
+      "narrow": "780px",
+      "default": "1180px",
+      "wide": "1320px",
+      "full": "1480px"
+    },
+    "gutter": "clamp(1.25rem, 4vw, 2.5rem)"
+  },
+
+  "grid": {
+    "columns": 12,
+    "gap": {
+      "xs": "0.75rem",
+      "sm": "1rem",
+      "md": "1.5rem",
+      "lg": "2rem",
+      "xl": "2.5rem"
+    }
+  },
+
+  "chart": {
+    "axis": {
+      "tickSize": 11,
+      "labelColor": "var(--text-tertiary)",
+      "lineColor": "var(--border-subtle)"
+    },
+    "grid": {
+      "lineColor": "rgba(255,255,255,0.05)",
+      "lineColorLight": "rgba(11,18,32,0.05)",
+      "dasharray": "2 4"
+    },
+    "tooltip": {
+      "bg": "var(--bg-glassHi)",
+      "border": "var(--border-default)",
+      "radius": "10px",
+      "padding": "12px 14px",
+      "shadow": "var(--shadow-default)",
+      "blur": "var(--blur-default)"
+    },
+    "minHeight": {
+      "compact": "240px",
+      "default": "320px",
+      "wide": "420px",
+      "hero": "520px"
+    },
+    "stroke": {
+      "thin": 1.5,
+      "default": 2,
+      "thick": 3
+    },
+    "point": {
+      "default": 4,
+      "hover": 7
+    }
+  },
+
+  "iconography": {
+    "library": "lucide",
+    "size": {
+      "xs": "14px",
+      "sm": "16px",
+      "default": "20px",
+      "lg": "24px",
+      "xl": "32px"
+    },
+    "stroke": 1.75
+  },
+
+  "focus": {
+    "ring": "0 0 0 2px var(--accent-primary), 0 0 0 4px rgba(6,182,212,0.25)",
+    "ringLight": "0 0 0 2px var(--accent-primary), 0 0 0 4px rgba(8,145,178,0.20)"
+  },
+
+  "a11y": {
+    "minContrast": {
+      "body": 4.5,
+      "large": 3.0,
+      "ui": 3.0
+    },
+    "minTouchTarget": "44px",
+    "reducedMotionVar": "--reduced-motion"
+  }
+}

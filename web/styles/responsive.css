@@ -1,0 +1,232 @@
+/* =====================================================================
+   SK Hynix Analysis Report — responsive.css
+   Mobile-first base in main.css / components.css
+   Breakpoints: 360 / 640 / 768 / 1024 / 1280 / 1536 / 1920
+   ===================================================================== */
+
+/* ============== ≥ 640px : Phone landscape / Small tablet ============== */
+@media (min-width: 640px) {
+  .summary-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .scenario-toggle {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .hero__metrics {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .kpi-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .kpi-grid--4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .sources-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .catalyst-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ============== ≥ 768px : Tablet ============== */
+@media (min-width: 768px) {
+  .site-header__live {
+    display: inline-flex;
+  }
+  .verdict-dial__body {
+    grid-template-columns: 1fr auto;
+  }
+  .verdict-dial__ranges {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .summary-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .accordion__head .caption {
+    display: inline-block;
+    margin-left: auto;
+  }
+  .pillar__body--dual .pillar__chart {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============== ≥ 1024px : Desktop ============== */
+@media (min-width: 1024px) {
+  .pillar__body {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    gap: var(--space-12);
+  }
+  .pillar[data-layout="chart-left"] .pillar__body {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  }
+  .pillar[data-layout="chart-right"] .pillar__body {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  }
+  .pillar[data-layout="chart-right"] .pillar__chart {
+    order: 2;
+  }
+  .pillar[data-layout="chart-right"] .pillar__text {
+    order: 1;
+  }
+
+  .pillar__body--dual.pillar__body {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  }
+  .pillar[data-layout="chart-right"].pillar .pillar__body--dual .pillar__chart {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-links {
+    gap: var(--space-1);
+  }
+  .nav-links a {
+    padding: var(--space-2) var(--space-5);
+  }
+
+  .verdict-dial__dimensions {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .timeline {
+    padding-left: var(--space-8);
+  }
+}
+
+/* ============== ≥ 1280px : Large desktop ============== */
+@media (min-width: 1280px) {
+  .section {
+    padding-block: var(--space-section-y-lg);
+  }
+  .hero {
+    padding-block: var(--space-40) var(--space-24);
+  }
+  .sources-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .hero__title {
+    margin-block: var(--space-8) var(--space-10);
+  }
+}
+
+/* ============== ≥ 1536px : XL ============== */
+@media (min-width: 1536px) {
+  .sources-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .container--wide,
+  .container--full {
+    padding-inline: clamp(2rem, 5vw, 4rem);
+  }
+}
+
+/* ============== ≥ 1920px : Ultra ============== */
+@media (min-width: 1920px) {
+  :root {
+    --container-default: 1180px;
+    --container-wide: 1440px;
+    --container-full: 1640px;
+  }
+}
+
+/* ============== < 768px : Mobile-specific overrides ============== */
+@media (max-width: 767px) {
+  .site-header__inner {
+    min-height: 56px;
+    padding-block: var(--space-2);
+  }
+  .site-header__nav {
+    display: none;
+  }
+  .site-header.is-mobile-open .site-header__nav {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0; right: 0;
+    background: var(--bg-overlay);
+    backdrop-filter: blur(var(--blur-default));
+    -webkit-backdrop-filter: blur(var(--blur-default));
+    padding: var(--space-4);
+    border-top: 1px solid var(--border-default);
+    z-index: var(--z-header);
+  }
+  .site-header.is-mobile-open .nav-links {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+  .site-header.is-mobile-open .nav-links a {
+    padding: var(--space-3) var(--space-4);
+    border-bottom: 1px solid var(--border-subtle);
+    border-radius: 0;
+  }
+  .menu-toggle {
+    display: flex;
+  }
+  .site-footer__inner {
+    grid-template-columns: 1fr;
+  }
+  .scenario-card {
+    padding: var(--space-6) var(--space-5);
+  }
+  .verdict-dial {
+    padding: var(--space-6);
+  }
+  .pillar {
+    margin-block: var(--space-12);
+  }
+}
+
+/* ============== ≥ 640px footer / wider grids ============== */
+@media (min-width: 640px) {
+  .site-footer__inner {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1024px) {
+  .site-footer__inner {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+}
+
+/* ============== Container queries (chart-container) ============== */
+@supports (container-type: inline-size) {
+  .chart-container {
+    container-type: inline-size;
+    container-name: chart;
+  }
+  @container chart (min-width: 600px) {
+    .chart-container__head {
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .chart-container__controls {
+      margin-top: 0;
+      margin-left: auto;
+    }
+  }
+}
+
+/* ============== Print ============== */
+@media print {
+  #bg-canvas,
+  .site-header,
+  .site-footer,
+  .scroll-indicator,
+  .scroll-progress,
+  .control-pill,
+  .scenario-toggle {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .section {
+    padding-block: 1cm;
+    page-break-inside: avoid;
+  }
+}

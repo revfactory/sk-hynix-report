@@ -1,0 +1,563 @@
+{
+  "meta": {
+    "reportTitle": "SK하이닉스(000660.KS) 다각도 주가 분석 보고서",
+    "reportDate": "2026-05-12",
+    "asOfDate": "2026-05-12",
+    "asOfNote": "KST 장중 (Investing.com / StockAnalysis 출처 병기)",
+    "ticker": "000660.KS",
+    "exchange": "KOSPI",
+    "name": "SK하이닉스",
+    "nameEn": "SK Hynix Inc.",
+    "sharesOutstanding": 701690000,
+    "currency": "KRW",
+    "author": "SK Hynix Analysis Team — 5 analysts + integration",
+    "nextUpdateAt": [
+      "2026-06-05 (Computex 2026 종료 후)",
+      "2026-06-18 (FOMC 후)",
+      "2026-07-29 (Q2 2026 실적 발표 후)"
+    ]
+  },
+
+  "snapshot": {
+    "price": 1861000,
+    "priceAlt": 1846000,
+    "priceAltSource": "StockAnalysis.com",
+    "priceSource": "Investing.com",
+    "change": -19000,
+    "changePct": -1.01,
+    "open": 1944000,
+    "high": 1967000,
+    "low": 1804000,
+    "prevClose": 1880000,
+    "volume": 8440000,
+    "volume3mAvg": 4334000,
+    "volumeRatio": 1.95,
+    "turnover_KRW_trillion": 2.62,
+    "marketCap_KRW_trillion": 1319,
+    "marketCap_USD_billion": 819,
+    "globalRank": 16,
+    "kospiRank": 2,
+    "yearReturnPct": 871.07,
+    "yearReturnPctAlt": 873.33,
+    "ytdReturnPctEstimate": 50,
+    "oneMonthReturnPct": 14,
+    "oneWeekReturnPct": 10.5,
+    "high52w": 1967000,
+    "high52wDate": "2026-05-12",
+    "low52w": 193500,
+    "low52wDate": "2025-05",
+    "high52wMultipleVsLow": 9.6,
+    "forwardPER": 5.93,
+    "forwardPERFundamentals": 5.2,
+    "trailingPER": {
+      "investing": 12.06,
+      "stockanalysis": 17.64
+    },
+    "PBR": 7.06,
+    "PBR_2026E": 3.1,
+    "EV_EBITDA_2026E": 3.0,
+    "EPS_TTM": 106603,
+    "EPS_YoY_Pct": 188.2,
+    "ROE": 61.2,
+    "dividendYield": 0.18,
+    "dividendPerShare": 3000,
+    "exDividendDate": "2026-05-28",
+    "beta": 2.03,
+    "fxKRWUSD": 1454,
+    "fxKRWUSD_Q1_high": 1546,
+    "foreignOwnershipPct": 53.00,
+    "foreignOwnershipAsOf": "2026-05-04",
+    "foreignNetSell_YTD_KRW_trillion": -22,
+    "foreignPriceCorr_YTD": -0.52,
+    "valuationPeers": {
+      "skHynix_FWD_PER": 5.2,
+      "micron_FWD_PER": 11,
+      "samsung_FWD_PER": 8.5,
+      "nvidia_FWD_PER": 30,
+      "amd_FWD_PER": 25,
+      "tsmc_FWD_PER": 20,
+      "skHynix_5yr_avg_FWD_PER": 15
+    }
+  },
+
+  "technical": {
+    "movingAverage": [
+      {"period": "MA5", "value": 1867200, "signal": "sell"},
+      {"period": "MA10", "value": 1886500, "signal": "sell"},
+      {"period": "MA20", "value": 1803450, "signal": "buy"},
+      {"period": "MA50", "value": 1604160, "signal": "buy"},
+      {"period": "MA100", "value": 1425705, "signal": "buy"},
+      {"period": "MA200", "value": 1213040, "signal": "buy"}
+    ],
+    "momentum": {
+      "rsi14": {"investing": 59.48, "stockanalysis": 85.45, "interpretation": "overbought"},
+      "macd": 82428,
+      "macdSignal": "buy",
+      "stochastic_9_6": 95.62,
+      "stochasticSignal": "overbought",
+      "stochRSI_14": 2.21
+    },
+    "pivot": {
+      "S3": 1767334,
+      "S2": 1802667,
+      "S1": 1820334,
+      "P": 1855667,
+      "R1": 1873334,
+      "R2": 1908667,
+      "R3": 1926334
+    },
+    "support": [
+      {"level": 1820000, "label": "피봇 S1", "horizon": "short"},
+      {"level": 1604000, "label": "50일선", "horizon": "mid"},
+      {"level": 1425000, "label": "100일선", "horizon": "long"}
+    ],
+    "resistance": [
+      {"level": 1873000, "label": "피봇 R1", "horizon": "short"},
+      {"level": 1967000, "label": "52주 신고가", "horizon": "short"},
+      {"level": 2000000, "label": "심리적 2백만원", "horizon": "psych"},
+      {"level": 3000000, "label": "최고 컨센서스 (SK증권)", "horizon": "long"}
+    ]
+  },
+
+  "priceHistory": {
+    "note": "보고서에 일별 종가 시리즈는 없음. 보고서·보조자료에서 확인된 마일스톤 포인트(1년 +871%, 5/11 +13.4%, 5/12 신고가 1,967,000, 3M ~55%, 200일선 1,213,040, 100일선 1,425,705, 50일선 1,604,160, 2026-02 ~1,200,000원대)를 기반으로 한 reasonable 월별 마일스톤 추정. 5/11과 5/12 거래일 포인트는 확인된 실측값.",
+    "frequency": "monthly+recent-daily",
+    "series": [
+      {"date": "2025-05-12", "close": 193500, "milestone": "52주 저점 (보고서 확인)"},
+      {"date": "2025-06-15", "close": 240000, "milestone": "estimate"},
+      {"date": "2025-07-15", "close": 290000, "milestone": "estimate"},
+      {"date": "2025-08-15", "close": 360000, "milestone": "estimate"},
+      {"date": "2025-09-15", "close": 480000, "milestone": "estimate; 삼성 HBM3E 12H NVIDIA 인증 (9/19)"},
+      {"date": "2025-10-15", "close": 620000, "milestone": "estimate; SK HBM4 양산 시스템 발표"},
+      {"date": "2025-11-15", "close": 780000, "milestone": "estimate"},
+      {"date": "2025-12-15", "close": 940000, "milestone": "estimate; HBM4 NVIDIA 샘플 인증 보도"},
+      {"date": "2026-01-15", "close": 1080000, "milestone": "estimate; CES 2026 16-Hi 48GB 시연"},
+      {"date": "2026-02-17", "close": 1200000, "milestone": "보고서 확인 3M 기점 (~1,200,000)"},
+      {"date": "2026-03-15", "close": 1380000, "milestone": "estimate; GTC 2026"},
+      {"date": "2026-04-15", "close": 1520000, "milestone": "estimate; DigiTimes Rubin 지연 보도 (4/15)"},
+      {"date": "2026-04-23", "close": 1620000, "milestone": "1Q26 사상 최고 실적 발표"},
+      {"date": "2026-04-27", "close": 1640000, "milestone": "BNK Hold 다운그레이드"},
+      {"date": "2026-05-04", "close": 1700000, "milestone": "고평가 경고 확산"},
+      {"date": "2026-05-07", "close": 1740000, "milestone": "SK증권 TP 300만 / 미래에셋 270만"},
+      {"date": "2026-05-08", "close": 1654000, "milestone": "보고서 확인 (1주 기점)"},
+      {"date": "2026-05-11", "close": 1880000, "milestone": "+13.40% 급등, 52주 신고가 갱신"},
+      {"date": "2026-05-12", "close": 1861000, "milestone": "장중 고가 1,967,000 후 -1.01% 조정"}
+    ]
+  },
+
+  "revenueByYear": [
+    {"fy": "FY21", "revenue": 43.0, "op": 12.4, "np": 9.6, "opm": 29, "cyclePhase": "boom"},
+    {"fy": "FY22", "revenue": 44.6, "op": 7.0, "np": 2.4, "opm": 16, "cyclePhase": "down-entry"},
+    {"fy": "FY23", "revenue": 32.8, "op": -7.7, "np": -9.1, "opm": -24, "cyclePhase": "down-trough"},
+    {"fy": "FY24", "revenue": 66.2, "op": 23.5, "np": 19.8, "opm": 35, "cyclePhase": "recovery"},
+    {"fy": "FY25", "revenue": 97.1, "op": 47.2, "np": 42.9, "opm": 49, "cyclePhase": "supercycle"},
+    {"fy": "FY26E", "revenue": 245, "revenueRangeLow": 210, "revenueRangeHigh": 280, "op": 256, "opRangeLow": 210, "opRangeHigh": 262, "np": 200, "opm": 71, "cyclePhase": "supercycle-peak"},
+    {"fy": "FY27E", "revenue": null, "op": 329, "opRangeLow": 282, "opRangeHigh": 376, "np": null, "opm": 72, "cyclePhase": "peak-extension"}
+  ],
+
+  "q1_2026": {
+    "asOf": "2026-04-23",
+    "revenue_KRW_trillion": 52.58,
+    "op_KRW_trillion": 37.61,
+    "np_KRW_trillion": 40.35,
+    "opm_pct": 72,
+    "yoy": {"revenue": 198, "op": 405, "np": 398, "opm_delta_pp": 47},
+    "qoq": {"revenue": 60, "op": 96, "np": 165, "opm_delta_pp": 14},
+    "segments": [
+      {"name": "DRAM", "revenue_KRW_trillion": 41, "share_pct": 78, "asp_qoq_pct_low": 63, "asp_qoq_pct_high": 65, "note": "HBM·DDR5·LPDDR6·SOCAMM2 강세"},
+      {"name": "NAND", "revenue_KRW_trillion": 11, "share_pct": 21, "asp_qoq_pct": 75, "note": "출하 -10% QoQ (가격 우선), eSSD 강세"},
+      {"name": "기타", "revenue_KRW_trillion": 0.5, "share_pct": 1, "note": "추정"}
+    ],
+    "balance": {
+      "cash_KRW_trillion": 54.3,
+      "cash_prev_KRW_trillion": 34.9,
+      "debt_KRW_trillion": 19.3,
+      "debt_prev_KRW_trillion": 22.2,
+      "netCash_KRW_trillion": 35.0,
+      "netCash_prev_KRW_trillion": 12.7,
+      "netCash_delta_KRW_trillion": 22.3,
+      "fcf_quarter_KRW_trillion": 30,
+      "target_netCash_KRW_trillion": 100
+    }
+  },
+
+  "hbmShare2026": {
+    "bit_basis": {
+      "source": "TrendForce",
+      "year": 2026,
+      "data": [
+        {"company": "SK하이닉스", "share": 50, "key": "sk"},
+        {"company": "삼성전자", "share": 28, "key": "samsung"},
+        {"company": "마이크론", "share": 22, "key": "micron"}
+      ]
+    },
+    "bit_basis_2025": {
+      "source": "TrendForce",
+      "year": 2025,
+      "data": [
+        {"company": "SK하이닉스", "share": 59, "key": "sk"},
+        {"company": "삼성전자", "share": 20, "key": "samsung"},
+        {"company": "마이크론", "share": 21, "key": "micron"}
+      ]
+    },
+    "revenue_basis": {
+      "source": "Counterpoint 2026 Q2 매출 추정",
+      "year": 2026,
+      "data": [
+        {"company": "SK하이닉스", "share": 62, "key": "sk"},
+        {"company": "삼성전자", "share": 17, "key": "samsung"},
+        {"company": "마이크론", "share": 21, "key": "micron"}
+      ]
+    },
+    "hbm4_forecast": {
+      "source": "Counterpoint",
+      "year": 2026,
+      "data": [
+        {"company": "SK하이닉스", "share": 54, "key": "sk"},
+        {"company": "삼성전자", "share": 28, "key": "samsung"},
+        {"company": "마이크론", "share": 18, "key": "micron"}
+      ]
+    },
+    "nvidiaHBM4Allocation": {
+      "source": "UBS / TrendForce 추정",
+      "data": [
+        {"company": "SK하이닉스", "share": 70, "key": "sk"},
+        {"company": "삼성전자", "share": 25, "key": "samsung"},
+        {"company": "마이크론", "share": 5, "key": "micron"}
+      ]
+    }
+  },
+
+  "nvidiaSupplyMatrix": {
+    "note": "값 의미 — 3: 주력 공급(★ 또는 ~70%+), 2: 보조 공급, 1: 일부/추격, 0: 미공급",
+    "legend": {
+      "3": "주력 (~70%+)",
+      "2": "보조 (20~40%)",
+      "1": "일부 (<20%)",
+      "0": "미공급"
+    },
+    "vendors": ["SK하이닉스", "삼성전자", "마이크론"],
+    "rows": [
+      {"product": "NVIDIA H100 (Hopper)", "hbm": "HBM3", "values": {"sk": 3, "samsung": 1, "micron": 0}, "note": "구세대 참고"},
+      {"product": "NVIDIA H200 (Hopper)", "hbm": "HBM3E 8H", "values": {"sk": 3, "samsung": 1, "micron": 1}, "note": "SK 주력"},
+      {"product": "NVIDIA B100/B200 (Blackwell)", "hbm": "HBM3E 8H", "values": {"sk": 3, "samsung": 2, "micron": 1}, "note": "192GB"},
+      {"product": "NVIDIA B300 (Blackwell Ultra)", "hbm": "HBM3E 12H", "values": {"sk": 3, "samsung": 1, "micron": 1}, "note": "SK 단독 공급 — HBM3E 12H 세계 최초 양산"},
+      {"product": "NVIDIA Rubin (R100/R200)", "hbm": "HBM4 12H", "values": {"sk": 3, "samsung": 2, "micron": 1}, "note": "SK ~70% (UBS 추정), 288GB"},
+      {"product": "NVIDIA Rubin Ultra (16-Hi)", "hbm": "HBM4 16H 48GB", "values": {"sk": 3, "samsung": 1, "micron": 1}, "note": "SK CES 2026 세계 최초 시연, 384GB+"},
+      {"product": "AMD MI355X / MI400", "hbm": "HBM3E/HBM4", "values": {"sk": 3, "samsung": 3, "micron": 0}, "note": "삼성 HBM4 AMD 인증 통과 (5/8 보도)"},
+      {"product": "Google TPU v6/v7", "hbm": "HBM3E", "values": {"sk": 2, "samsung": 3, "micron": 0}, "note": "삼성 60%+ 주력"},
+      {"product": "AWS Trainium 2/3", "hbm": "HBM3E", "values": {"sk": 3, "samsung": 1, "micron": 1}, "note": "SK 주력"}
+    ],
+    "gpuHBMCapacityGB": [
+      {"gpu": "H100", "hbm_GB": 80},
+      {"gpu": "H200", "hbm_GB": 141},
+      {"gpu": "B100/B200", "hbm_GB": 192},
+      {"gpu": "B300/Rubin", "hbm_GB": 288},
+      {"gpu": "Rubin Ultra", "hbm_GB": 384}
+    ]
+  },
+
+  "memoryCycle": {
+    "ddr5_16Gb_contract": {"current_USD": 27.20, "yearAgo_USD": 6.84, "growth3M_pct": 300, "asOf": "2025-12"},
+    "tlc_512Gb_spot": {"current_USD": 21.00, "yearAgo_USD": 4, "growth_pct": 400, "asOf": "2026-04"},
+    "dramInventoryWeeks": {"current": "2-3", "yearAgo": "8-10"},
+    "skHynixDRAMInventoryWeeks": {"current": "2-3", "yearAgo": "6-8"},
+    "utilization": "풀 가동, 2026 캐파 매진",
+    "trendforceDRAM_Q2_26_pct": 60,
+    "citiAvg2026_yoy_pct": 88,
+    "aiServerShipments_2026_YoY_pct": 28,
+    "hyperscalerCAPEX_2026_USD_billion": 670,
+    "hbmDemand_2026_YoY_pct": 70,
+    "aiDRAMWaferShare_2026_pct": 20
+  },
+
+  "hyperscalerCAPEX_2026": [
+    {"company": "Amazon", "capex_USD_billion": 200},
+    {"company": "Microsoft", "capex_USD_billion": 190},
+    {"company": "Google", "capex_USD_billion": 185},
+    {"company": "Meta", "capex_USD_billion": 135},
+    {"company": "Oracle", "capex_USD_billion": 50}
+  ],
+
+  "consensus": {
+    "asOf": "2026-05-12",
+    "average": 1817130,
+    "averageRangeLow": 1790000,
+    "averageRangeHigh": 2000000,
+    "min": 1300000,
+    "minFirm": "BNK투자증권",
+    "max": 3000000,
+    "maxFirm": "SK증권",
+    "currentDiscountPct": -2.36,
+    "totalAnalysts": 37,
+    "buyHoldSell": {"buy": 36, "hold": 1, "sell": 0},
+    "epsConsensus_2026E_low": 300000,
+    "epsConsensus_2026E_high": 320000,
+    "epsConsensus_2027E_low": 380000,
+    "epsConsensus_2027E_high": 450000,
+    "targets": [
+      {"firm": "SK증권", "tp": 3000000, "date": "2026-05-07", "opinion": "Buy", "prevTp": 2300000, "note": "국내 사상 최초 TP 300만"},
+      {"firm": "KB증권", "tp": 2800000, "date": "2026-05", "opinion": "Buy", "prevTp": 2000000, "note": "보도 기반 추정"},
+      {"firm": "미래에셋증권", "tp": 2700000, "date": "2026-05-07", "opinion": "Buy", "prevTp": 2100000, "note": "대폭 상향"},
+      {"firm": "노무라(Nomura)", "tp": 2340000, "date": "2026-04-24", "opinion": "Buy", "prevTp": 1930000, "note": "외국계 1차 리레이팅"},
+      {"firm": "LS증권", "tp": 2100000, "date": "2026-05-11", "opinion": "Buy", "prevTp": 1500000, "note": "DRAM 강세 + 성과급 변수"},
+      {"firm": "키움증권", "tp": 1900000, "date": "2026-05", "opinion": "Buy", "prevTp": 1300000, "note": "Q2 OP 70조 전망"},
+      {"firm": "UBS", "tp": 1700000, "date": "2026-05-11", "opinion": "Buy", "prevTp": 1550000, "note": "30년래 슈퍼사이클"},
+      {"firm": "Goldman Sachs", "tp": 1350000, "date": "2026-04", "opinion": "Buy", "prevTp": 1200000, "note": "DRAM 수급 갭 확대"},
+      {"firm": "Morgan Stanley", "tp": 840000, "date": "2026-01", "opinion": "OW", "prevTp": null, "note": "5월 추가 상향 보도 미확인 — 양쪽 기록"},
+      {"firm": "BNK투자증권", "tp": 1300000, "date": "2026-04-27", "opinion": "Hold", "prevTp": 1300000, "note": "9개월 만 첫 다운그레이드 — 단일 균열 신호"}
+    ],
+    "fy26_op_consensus_trend": [
+      {"date": "2026-01", "value_KRW_trillion": 247, "firm": "키움(시장 컨센)"},
+      {"date": "2026-04", "value_KRW_trillion": 250, "firm": "평균 추정"},
+      {"date": "2026-05-07", "value_KRW_trillion": 262, "firm": "SK증권 상단"}
+    ],
+    "q2_26_op_consensus": [
+      {"firm": "키움", "value_KRW_trillion": 70},
+      {"firm": "KB", "value_KRW_trillion": 67},
+      {"firm": "유진", "value_KRW_trillion": 63.7},
+      {"firm": "iM", "value_KRW_trillion": 58.9}
+    ]
+  },
+
+  "scenarios": {
+    "bear": {
+      "key": "bear",
+      "label": "Bear",
+      "title": "사이클 천장 + 셰어 잠식",
+      "probability": [20, 25],
+      "probabilityMean": 22.5,
+      "priceRange": [1000000, 1300000],
+      "priceMid": 1150000,
+      "currentVsRangePct": [-46, -30],
+      "triggers": [
+        "삼성 Rubin Ultra 메인 진입",
+        "AMD MI400 삼성 단독 발주",
+        "미 추가 수출통제 (HBM 카테고리 확대)",
+        "Q4 DRAM -20% 가격 전환",
+        "원/달러 1,300원대 회귀"
+      ],
+      "rationale": "OPM 72% 정점, 1Y +871%, 컨센서스 도달 후 단기 차익실현 누적 + 삼성 6월 본격 공급 → 점유율 50% 미만 가능"
+    },
+    "base": {
+      "key": "base",
+      "label": "Base",
+      "title": "분점 정착 + Soft Landing",
+      "probability": [55, 60],
+      "probabilityMean": 57.5,
+      "priceRange": [1500000, 2100000],
+      "priceMid": 1800000,
+      "currentVsRangePct": [-19, 13],
+      "triggers": [
+        "SK 50%·삼성 30~35%·마이크론 15% 분점 정착",
+        "Q3 가격 정점 후 soft landing",
+        "원/달러 1,400~1,450원 박스권",
+        "우시 VEU 1년 갱신 유지",
+        "Q2 실적 컨센 부합 (60~65조)"
+      ],
+      "rationale": "펀더멘털·산업 강력하나 컨센 평균 이미 도달 → Base 중심 박스권. 추가 카탈리스트 등장 시 상단, 균열 신호 누적 시 하단"
+    },
+    "bull": {
+      "key": "bull",
+      "label": "Bull",
+      "title": "슈퍼사이클 연장 + 점유율 방어",
+      "probability": [20, 25],
+      "probabilityMean": 22.5,
+      "priceRange": [2300000, 2800000],
+      "priceMid": 2550000,
+      "currentVsRangePct": [24, 50],
+      "triggers": [
+        "HBM4·4E 16-Hi 메인 공급 유지",
+        "AI CAPEX 2027~28 가속",
+        "SK 수출통제 면제",
+        "일반 DRAM 슈퍼사이클 2028 연장",
+        "환율 1,500원대 약세",
+        "ADR 상장 흥행 + 100조 순현금 비전 달성"
+      ],
+      "rationale": "UBS '30년래 슈퍼사이클' 평가 + Forward PER 5.2x → PER 10x 리레이팅만으로도 50%+ 여력. 단 단기 과열 시그널과 동시 인지 필요"
+    },
+    "weightedExpected": {
+      "low": 1750000,
+      "high": 1900000
+    }
+  },
+
+  "riskMatrix": {
+    "axes": {
+      "impact": ["low", "mid", "high"],
+      "likelihood": ["low", "mid", "high"]
+    },
+    "items": [
+      {"id": "D", "label": "NVIDIA 단일 고객 집중", "category": "customer", "impact": "high", "likelihood": "high", "isTop": true, "color": "high", "summary": "HBM 매출 60%+ NVIDIA, 발주 변동 시 직격"},
+      {"id": "J1", "label": "단기 변동성·차익실현", "category": "market", "impact": "high", "likelihood": "high", "isTop": true, "color": "high", "summary": "베타 2.03, 1Y +871%, 컨센 도달 후 -15~-25% 단기 충격 가능"},
+      {"id": "A1", "label": "미·중 추가 HBM 수출통제", "category": "policy", "impact": "high", "likelihood": "mid", "isTop": true, "color": "high", "summary": "5/13 MATCH Act 심의, BIS 카테고리 확대"},
+      {"id": "E", "label": "메모리 사이클 천장 진입", "category": "cycle", "impact": "mid", "likelihood": "high", "isTop": true, "color": "mid", "summary": "OPM 72% 정점, Q3~Q4 변곡 가능"},
+      {"id": "F1", "label": "HBM4 11Gbps 수율 격차", "category": "tech", "impact": "mid", "likelihood": "high", "isTop": true, "color": "mid", "summary": "삼성 11.7Gbps 통과, SK 격차 누적 시 셰어 이전"},
+      {"id": "F2", "label": "삼성 HBM4 인증 통과", "category": "competitor", "impact": "high", "likelihood": "mid", "isTop": true, "color": "high", "summary": "2026-02 평택 양산, 6월 본격 공급"},
+      {"id": "G1", "label": "우시 VEU 1년 단위 갱신", "category": "policy", "impact": "high", "likelihood": "mid", "isTop": true, "color": "high", "summary": "매년 정책 리스크, 12/31 2027년분 결정"},
+      {"id": "B", "label": "원/달러 강세 전환", "category": "macro", "impact": "mid", "likelihood": "mid", "isTop": false, "color": "mid", "summary": "1,300원대 회귀 시 분기 OP 수조원 영향"},
+      {"id": "C2", "label": "TSMC CoWoS 캐파 병목", "category": "supply", "impact": "mid", "likelihood": "mid", "isTop": false, "color": "mid", "summary": "HBM 매출 상방 진짜 병목, 2027 P&T7 가동 대기"},
+      {"id": "H", "label": "CAPEX 30조+ 부담", "category": "finance", "impact": "mid", "likelihood": "mid", "isTop": false, "color": "mid", "summary": "사이클 변곡 시 감가상각 OP 직격"},
+      {"id": "I1", "label": "노조 임단협", "category": "internal", "impact": "low", "likelihood": "mid", "isTop": false, "color": "low", "summary": "성과급 정책 인건비 변수"},
+      {"id": "I2", "label": "RE100 비용", "category": "esg", "impact": "low", "likelihood": "mid", "isTop": false, "color": "low", "summary": "장기 ESG 비용"},
+      {"id": "A2", "label": "대만 군사충돌", "category": "geopolitical", "impact": "high", "likelihood": "low", "isTop": false, "color": "high", "summary": "TSMC CoWoS 중단 시 HBM 매출 직격"},
+      {"id": "A3", "label": "북한 도발", "category": "geopolitical", "impact": "high", "likelihood": "low", "isTop": false, "color": "high", "summary": "단기 -5~-10% 코리아 디스카운트"},
+      {"id": "C1", "label": "일본 소부장 보복 재발", "category": "supply", "impact": "high", "likelihood": "low", "isTop": false, "color": "high", "summary": "EUV 공정 중단 가능"},
+      {"id": "G2", "label": "EU 반독점·세제", "category": "policy", "impact": "mid", "likelihood": "low", "isTop": false, "color": "mid", "summary": "장기 변수"},
+      {"id": "I3", "label": "최태원 가족 분쟁 재점화", "category": "governance", "impact": "low", "likelihood": "low", "isTop": false, "color": "low", "summary": "지배구조 단기 변수"}
+    ],
+    "hedgeAssessment": [
+      {"label": "재무 리스크", "status": "good", "note": "순현금 35조, 부채비율 48.4%, 차입금의존도 17.9%"},
+      {"label": "환율", "status": "good", "note": "USD 자연 헤지"},
+      {"label": "공급망(일본·중국)", "status": "partial", "note": "다변화 진행 중"},
+      {"label": "공급망(ASML EUV / TSMC CoWoS)", "status": "limited", "note": "단기 대체 어려움, P&T7 2027 가동 대기"},
+      {"label": "고객 집중(NVIDIA)", "status": "moderate", "note": "비NVIDIA 비중 확대 중이나 단기 의존도 高"},
+      {"label": "사이클", "status": "limited", "note": "HBM LTA 비중 확대로 일반 DRAM 대비 변동성 ↓"},
+      {"label": "북한·대만 군사충돌", "status": "uncontrollable", "note": "외부 변수"}
+    ]
+  },
+
+  "events90d": [
+    {"date": "2026-05-13", "title": "美 하원 외교위 MATCH Act / Chip Security Act 심의", "category": "policy", "impact": "negative", "summary": "통과 여부 / HBM 카테고리 확대 모니터링"},
+    {"date": "2026-05-15", "title": "삼성 HBM4 NVIDIA·AMD 본격 공급 개시 (보도 예정 윈도우)", "category": "competitor", "impact": "negative", "summary": "공식 발표 / 출하량 — 5~6월 보도 예정 보도 단계"},
+    {"date": "2026-05-31", "title": "M15X 1차 클린룸 완공", "category": "capacity", "impact": "positive", "summary": "HBM3E/HBM4 캐파 가동"},
+    {"date": "2026-06-02", "title": "Computex 2026 개막 (6/2~6/5)", "category": "event", "impact": "positive", "summary": "HBM4 16H 시연·공급계약 발표 (Computex 4개일)"},
+    {"date": "2026-06-18", "title": "FOMC + 점도표(SEP)", "category": "macro", "impact": "neutral", "summary": "금리·환율 변동성"},
+    {"date": "2026-06-25", "title": "NYSE ADR 상장 윈도우 (6~7월)", "category": "capital", "impact": "neutral", "summary": "10~15조 신주, 청약·가격·외국인 수급 — 저평가 해소 vs 희석 양면"},
+    {"date": "2026-07-15", "title": "한국은행 금통위 (7월)", "category": "macro", "impact": "neutral", "summary": "금리 결정"},
+    {"date": "2026-07-29", "title": "Q2 2026 실적 발표", "category": "earnings", "impact": "positive", "summary": "컨센 평균 60~65조 (키움 70 / KB 67 / 유진 63.7 / iM 58.9) vs 실적·가이던스"},
+    {"date": "2026-08-25", "title": "Hot Chips 2026", "category": "event", "impact": "positive", "summary": "HBM4·5 기술 노출"},
+    {"date": "2026-09-15", "title": "삼성 HBM4 16-Hi NVIDIA Rubin Ultra 메인 공급 확정 윈도우", "category": "competitor", "impact": "negative", "summary": "9~10월 인증 결판 (분석가 추정 시점)"},
+    {"date": "2026-12-31", "title": "우시 VEU 2027년분 갱신 결정", "category": "policy", "impact": "neutral", "summary": "허가·거부 — 매년 갱신 리스크"}
+  ],
+
+  "catalysts": {
+    "positive": [
+      "Q2 컨센 상회 (60~65조원)",
+      "HBM4 추가 공급계약 (Rubin Ultra 메인)",
+      "ADR 상장 흥행",
+      "DRAM Q3 추가 인상",
+      "빅테크 30% 다운페이먼트 공식화",
+      "Computex 2026 16-Hi 발표"
+    ],
+    "negative": [
+      "삼성 HBM4 본격 공급 (6월)",
+      "NVIDIA Rubin 일정 지연",
+      "추가 다운그레이드",
+      "Q2 가이던스 보수",
+      "MATCH Act 통과",
+      "고밸류 경고 확산",
+      "성과급 인상·옵션 부담",
+      "신용잔고 동반 과열"
+    ]
+  },
+
+  "strengths": [
+    {
+      "title": "HBM 슈퍼사이클 정점의 마진 폭발",
+      "icon": "trending-up",
+      "metric": "OPM 72%",
+      "body": "1Q26 매출 52.6조원·영업이익 37.6조원·영업이익률 72% — 분기 사상 최고. 분기 OP가 직전 사이클(2017~2018) 연간 OP 수준에 근접.",
+      "evidence": ["1Q26 매출 +198% YoY", "OP +405% YoY", "DRAM ASP +63~65% QoQ", "NAND ASP +75% QoQ"]
+    },
+    {
+      "title": "HBM 시장 1위 + NVIDIA Rubin HBM4 ~70% 확보",
+      "icon": "trophy",
+      "metric": "Rubin HBM4 70%",
+      "body": "16-Hi 48GB HBM4 세계 최초 CES 2026 시연. MR-MUF + 1c DRAM + High-NA EUV 3중 기술 우위.",
+      "evidence": ["TrendForce 2025 bit 59%·2026E 50%+", "Counterpoint 2026 매출 62%", "Counterpoint HBM4 54%", "NVIDIA B300 단독·Rubin ~70%"]
+    },
+    {
+      "title": "재무 압박 사실상 부재",
+      "icon": "shield-check",
+      "metric": "순현금 35조",
+      "body": "순현금 35조원 (분기 +22.3조), FCF 분기 30조+ 창출, Forward PER 5.2x (마이크론 11x 대비 50%+ 할인). 회사 목표 순현금 100조 + 주주환원 병행.",
+      "evidence": ["현금 54.3조 vs 차입금 19.3조", "ADR 상장 6~7월 추진 (10~15조 신주)", "자사주 매입·소각 추가 방안 연내"]
+    }
+  ],
+
+  "concerns": [
+    {
+      "title": "삼성 HBM 추격 가시화",
+      "icon": "alert-triangle",
+      "metric": "6월 본격 공급",
+      "body": "삼성 HBM3E 12H NVIDIA 인증 2025-09 통과, HBM4 평택 양산 2026-02, AMD MI400 인증 — 5월 초 보도 기준 6월부터 본격 공급. SK 점유율 70% 가설에 균열.",
+      "evidence": ["SBS Biz HBM4 NVIDIA·AMD 인증 (5월 초)", "g-enews AMD 잭팟 (5/8)", "Counterpoint HBM4 SK 54% / 삼성 28%"]
+    },
+    {
+      "title": "사이클 천장 + 단기 과열 시그널 동반",
+      "icon": "thermometer",
+      "metric": "베타 2.03",
+      "body": "베타 2.03, 1Y +871%, VKOSPI 60p, 신용잔고 36조, 공매도 잔고(코스피 전체) 180조, RSI 60~85·스토캐스틱 95+ — 강세장 후반부 crowded trade.",
+      "evidence": ["거래량 5/12 +95% 이상치", "외국인 YTD -22조 매도", "컨센 평균 이미 도달 (-2.36%)"]
+    },
+    {
+      "title": "NVIDIA 단일 고객 ~60% 의존 + 정책 리스크",
+      "icon": "git-fork",
+      "metric": "NVIDIA 60%+",
+      "body": "HBM 매출 60%+ NVIDIA 의존, HBM4 11Gbps 수율 격차 + 미·중 추가 수출통제 입법 5/13 심의(MATCH Act·Chip Security Act) + 우시 VEU 1년 갱신제로 매년 정책 리스크 잔존.",
+      "evidence": ["NVIDIA Rubin 지연 보도 (DigiTimes 4/15)", "BIS 2026-01-15 신규 규칙", "우시 VEU 2026년분만 허가"]
+    }
+  ],
+
+  "verdict": {
+    "stance": "Neutral-to-Bullish (Cycle Peak 인식)",
+    "rating": 4,
+    "ratingScale": 5,
+    "weighted12mPriceRange": [1750000, 1900000],
+    "baseCenterRange": [1500000, 2100000],
+    "dimensions": [
+      {"label": "펀더멘털", "score": 5, "note": "분기 사상 최고 모든 지표"},
+      {"label": "산업 환경", "score": 5, "note": "AI 슈퍼사이클 정점"},
+      {"label": "시장 심리", "score": 4, "note": "낙관 우세, 균열 신호 3개 동반"},
+      {"label": "밸류에이션", "score": 4, "note": "Forward PER 5.2x 매력적, PBR 부담"},
+      {"label": "기술적 위치", "score": 2, "note": "과매수권, 단기 차익실현 압력"},
+      {"label": "정책·지정학", "score": 2, "note": "미·중·삼성 추격 다중 리스크"}
+    ]
+  },
+
+  "sources": [
+    {"label": "SK하이닉스 뉴스룸 1Q26 실적", "url": "https://news.skhynix.co.kr/q1-2026-business-results/", "date": "2026-04-23", "category": "company"},
+    {"label": "SK Hynix IR — English 1Q26", "url": "https://news.skhynix.com/q1-2026-business-results/", "date": "2026-04-23", "category": "company"},
+    {"label": "디일렉 1Q26 컨퍼런스콜 전문", "url": "https://www.thelec.kr/news/articleView.html?idxno=55559", "date": "2026-04-23", "category": "company"},
+    {"label": "DART SK하이닉스 정기공시", "url": "https://dart.fss.or.kr/navi/searchNavi.do?naviCrpCik=00164779", "date": "2026", "category": "filings"},
+    {"label": "Investing.com 000660", "url": "https://www.investing.com/equities/sk-hynix-inc", "date": "2026-05-12", "category": "market"},
+    {"label": "StockAnalysis.com 000660", "url": "https://stockanalysis.com/quote/krx/000660/", "date": "2026-05-12", "category": "market"},
+    {"label": "FnGuide A000660 Consensus", "url": "https://comp.fnguide.com/SVO2/asp/SVD_Consensus.asp?pGB=1&gicode=A000660", "date": "2026-05", "category": "consensus"},
+    {"label": "TrendForce HBM 1Q26", "url": "https://www.trendforce.com/research/download/RP260204DA3", "date": "2026-02", "category": "industry"},
+    {"label": "Counterpoint Global DRAM and HBM Market Share", "url": "https://counterpointresearch.com/en/insights/global-dram-and-hbm-market-share", "date": "2026", "category": "industry"},
+    {"label": "TrendForce: SK Hynix 2/3 of NVIDIA HBM4", "url": "https://www.trendforce.com/news/2026/01/28/news-sk-hynix-reportedly-to-supply-about-two-thirds-of-nvidia-hbm4-samsung-targets-early-delivery/", "date": "2026-01-28", "category": "industry"},
+    {"label": "Federal Register: BIS License Review Policy 2026-01-15", "url": "https://www.federalregister.gov/documents/2026/01/15/2026-00789/revision-to-license-review-policy-for-advanced-computing-commodities", "date": "2026-01-15", "category": "policy"},
+    {"label": "SK증권 TP 300만원 — Bizwatch", "url": "https://news.bizwatch.co.kr/article/market/2026/05/07/0003", "date": "2026-05-07", "category": "consensus"},
+    {"label": "LS증권 TP 210만원 — Bizwatch", "url": "https://news.bizwatch.co.kr/article/market/2026/05/11/0003", "date": "2026-05-11", "category": "consensus"},
+    {"label": "BNK Cuts Rating to Hold — Bloomingbit", "url": "https://en.bloomingbit.io/feed/news/110805", "date": "2026-04-27", "category": "consensus"},
+    {"label": "CNBC: SK Hynix posts record Q1 profit", "url": "https://www.cnbc.com/2026/04/23/sk-hynix-earnings-ai-memory-shortage-hbm-demand.html", "date": "2026-04-23", "category": "news"},
+    {"label": "TechPowerUp: HBM4 48GB CES 2026", "url": "https://www.techpowerup.com/344834/sk-hynix-shows-16-layer-48-gb-hbm4-memory-modules-at-ces-2026", "date": "2026-01", "category": "tech"}
+  ],
+
+  "caveats": [
+    {"category": "데이터 시점·시차", "body": "2026-05-12 KST 장중 기준. 외국인 지분율 5/4, 컨센 5월 상향분 일부 미반영 가능. 5/11~12 ±10% 진폭으로 24~48시간 내 추가 변동 가능성 큼."},
+    {"category": "추정·미확인", "body": "HBM 매출 비중 50%+, NVIDIA 60%+ 의존도는 증권사·산업 분석가 추정. 사업부문별 OP 분해는 대신·IBK 추정."},
+    {"category": "추정·미확인", "body": "삼성 HBM4 NVIDIA·AMD 인증 통과 6월 본격 공급은 5월 초 보도 기준 — 공식 발표 미확인."},
+    {"category": "추정·미확인", "body": "NVIDIA Rubin 일정 지연 → HBM4 출하 축소 가능성은 DigiTimes 보도이며 확인되지 않은 보도."},
+    {"category": "추정·미확인", "body": "시나리오 확률(Bear 20~25% / Base 55~60% / Bull 20~25%)은 분석가 정성 판단이며 통계적 확률값 아님."},
+    {"category": "N/A 항목", "body": "KRX 공매도 잔고/거래 비중 — KRX 공매도 종합포털 직접 조회 필요"},
+    {"category": "N/A 항목", "body": "5/12 SK하이닉스 종목 외국인 정확 순매도 금액 — 장 마감 후 KRX 일일 데이터로 확정"},
+    {"category": "데이터 불일치", "body": "PER(TTM): 12.06x(Investing) / 17.64x(StockAnalysis) — EPS 산정 기간 차이 추정, 양쪽 기록"},
+    {"category": "데이터 불일치", "body": "현재가 5/12: 1,861,000원(Investing) / 1,846,000원(StockAnalysis) — 조회 시점 차이"},
+    {"category": "데이터 불일치", "body": "RSI(14): 59.48(Investing) / 85.45(StockAnalysis) — 조회 시점 차이로 추정"},
+    {"category": "데이터 불일치", "body": "HBM 점유율 2026: 50%(TrendForce bit) / 62%(Counterpoint 매출) — 산정 방식 차이"},
+    {"category": "분석가 의견 한계", "body": "Bull/Bear/Base 시나리오, 종합 진단(★★★★), 모니터링 권고는 분석가의 정성 판단. 정보 제공 목적이며 투자 자문 아님. 단일 근거 사용 금지."}
+  ],
+
+  "marketSentiment": {
+    "tone": "Bullish-Euphoric + 균열 신호 3개",
+    "indicators": [
+      {"label": "VKOSPI", "value": "60p 상회", "signal": "high", "interpretation": "변동성 과열 (KOSPI 상승과 동반 상승은 이례적)"},
+      {"label": "KOSPI 200", "value": "1,000p 돌파", "signal": "high", "interpretation": "사상 최고"},
+      {"label": "공매도 잔고(코스피 전체)", "value": "180조", "signal": "high", "interpretation": "사상 최대 — SK 단독 N/A"},
+      {"label": "신용잔고", "value": "36조", "signal": "high", "interpretation": "사상 최대 — 개인 레버리지 매수 강도"},
+      {"label": "외국인 매매-주가 상관 (YTD)", "value": "-0.52", "signal": "anomaly", "interpretation": "역행적 — 매도 누적에도 상승"}
+    ]
+  }
+}
